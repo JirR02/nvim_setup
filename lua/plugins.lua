@@ -71,6 +71,9 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
 
+  -- Autopairs
+  use({ "windwp/nvim-autopairs", commit = "fa6876f832ea1b71801c4e481d8feca9a36215ec" })
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
